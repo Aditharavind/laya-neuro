@@ -1,0 +1,14 @@
+checkpoints/
+data/raw/
+data/preprocessed_cross_subject/
+data/preprocessed_within_subject/
+data/preprocessed_demo/
+data/cross_subject/
+data/within_subject/
+data/stew_features.parquet
+__pycache__/
+*.pyc
+.venv/
+research_notes/
+reports/
+LINKEDIN_POST.md
