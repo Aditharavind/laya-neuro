@@ -88,7 +88,19 @@ meta-analysis (theta g=0.68, alpha g=-0.25 across 24 studies).
 
 ## Results
 
-*(filled in after training + evaluation complete — see `reports/`)*
+![laya-neuro results](results_card.png)
+
+An early Laya checkpoint (2 epochs on a 3,000-example subset of the
+17,820-example `cross_subject` training set — a full run is in progress)
+reaches **66.3% accuracy** on the honest, subject-disjoint test set (7,128
+epochs from 12 held-out subjects), in line with classical baselines
+evaluated on the identical protocol (LDA 67.3%, SVM 67.1%, Random Forest
+65.7%). The naive within-subject split inflates SVM and Random Forest by
+6-7 accuracy points (67.1%→71.5%, 65.7%→72.7%) while barely moving LDA
+(67.3%→66.1%) — direct evidence of the subject-identity leakage this
+project's split protocol is designed to expose. See [PAPER.md](PAPER.md)
+for the full writeup, related work, and limitations (most importantly:
+this is an early checkpoint, not a finished result).
 
 ## Grounding
 

@@ -191,6 +191,8 @@ training data, and a matching `within_subject` Laya run, are in progress
 
 ## 5. Results
 
+![laya-neuro results](results_card.png)
+
 | Model | Protocol | Accuracy | ECE | Brier |
 |---|---|---|---|---|
 | LDA | cross-subject (honest) | 67.3% | 5.1% | 0.431 |
